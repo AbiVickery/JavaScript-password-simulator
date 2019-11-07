@@ -9,8 +9,35 @@
 </head>
 <body>
     <script src="js/app.js"></script>
-    <form>
-        
-    </form>
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+    </div>
+    
+    <div>
+        <label for="pass">Password (8 characters minimum):</label>
+        <input type="password" id="pass" name="password"
+               minlength="8" required>
+    </div>
+    <p id="require1">
+        Password must have at least 8 characters but no more than 20
+    </p>
+    <p id="require2">
+        Must contain at least one special character(!, @, #, $, %, &)
+    </p>
+    <p id="require3">
+        Must contain at least one uppercase letter
+    </p>
+    <p id="require4">
+        Must contain at least one lowercase letter
+    </p>
+    <p id="require5">
+        Must contain at least one number
+    </p>
+    <p id="require6">
+        Cannot contain spaces
+    </p>
+    
+    <input type="submit" value="Sign up">
 </body>
 </html>
