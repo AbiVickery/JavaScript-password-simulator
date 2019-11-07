@@ -20,4 +20,4 @@ function pass() {
     let yes = true;
     let no = false;
     if ()
-}
+};
