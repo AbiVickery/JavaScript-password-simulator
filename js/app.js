@@ -16,3 +16,6 @@
 // a function to tell if the password contains zero spaces
 
 
+function pass() {
+    
+}
