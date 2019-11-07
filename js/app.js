@@ -16,8 +16,8 @@
 // a function to tell if the password contains zero spaces
 
 
-function pass() {
-    let yes = true;
-    let no = false;
-    if ()
-};
+// function pass() {
+//     let yes = true;
+//     let no = false;
+//     if ()
+// };
